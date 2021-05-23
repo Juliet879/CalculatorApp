@@ -31,8 +31,8 @@ class MainActivity  : AppCompatActivity() {
             }else {
                 val num1 = editNum1.text.toString().toInt()
                 val num2 = editNum2.text.toString().toInt()
-                val sum = num1 + num2
-                tvOutput.text = "Answer:$sum"
+                val answer = num1 + num2
+                tvOutput.text = "Answer:$answer"
             }
         }
         btnSubtract.setOnClickListener {
@@ -42,8 +42,8 @@ class MainActivity  : AppCompatActivity() {
             }else {
                 val num1 = editNum1.text.toString().toInt()
                 val num2 = editNum2.text.toString().toInt()
-                val sum = num1 - num2
-                tvOutput.text = "Answer:$sum"
+                val answer = num1 - num2
+                tvOutput.text = "Answer:$answer"
             }
         }
      }
@@ -60,8 +60,8 @@ class MainActivity  : AppCompatActivity() {
         }else {
             val num1 = editNum1.text.toString().toInt()
             val num2 = editNum2.text.toString().toInt()
-            val sum = num1 % num2
-            tvOutput.text = "Answer:$sum"
+            val answer = num1 % num2
+            tvOutput.text = "Answer:$answer"
         }
     }
 
@@ -76,8 +76,8 @@ class MainActivity  : AppCompatActivity() {
         }else {
             val num1 = editNum1.text.toString().toInt()
             val num2 = editNum2.text.toString().toInt()
-            val sum = num1 * num2
-            tvOutput.text = "Answer:$sum"
+            val answer = num1 * num2
+            tvOutput.text = "Answer:$answer"
         }
     }
 
